@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 
-arr = ['']*20 #number of layers
+arr = ['']*41 #number of layers
 json_obj = {"members": arr}
 # members API route
 @app.route("/members", methods=["GET"])
@@ -19,6 +19,20 @@ def members_post():
     arr = json_obj['members']
     print(json_obj)
     return {"members": arr}
+
+@app.route("/generate", methods=["POST"])
+def members_generate():
+    
+    global arr
+    data = request.data
+    json_object = json.loads(data)
+    json_obj = dict(json_object)
+    arr = json_obj['members']
+    # print(json_obj)
+    print("generate audio!")
+    return {"members": arr}
+    
+
 
 if __name__ == "__main__":
     app.run(debug=True)

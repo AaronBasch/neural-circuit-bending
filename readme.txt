@@ -6,7 +6,7 @@ export NVM_DIR="$HOME/.nvm"
 
 source ~/.zshrc
 
-//Activate venv:
+//Activate venv: https://youtu.be/7LNl2JlZKHA`
 
 cd flask-server
 source venv/bin/activate
