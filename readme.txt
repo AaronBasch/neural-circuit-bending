@@ -11,4 +11,4 @@ source ~/.zshrc
 cd flask-server
 source venv/bin/activate
 
-[Alt text]!(https://github.com/AaronBasch/neural-circuit-bending/blob/main/appPreview.png?raw=true "app preview")
+![Screenshot](appPreview.png)
