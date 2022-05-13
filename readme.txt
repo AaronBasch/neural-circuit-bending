@@ -10,3 +10,5 @@ source ~/.zshrc
 
 cd flask-server
 source venv/bin/activate
+
+[alt text]!(https://github.com/AaronBasch/neural-circuit-bending/blob/main/appPreview.png)
