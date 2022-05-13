@@ -1,5 +1,5 @@
 User-Friendly Network Bending
-Aaron Basch	Mark Cartwright
+Aaron Basch
 Abstract
 Network bending is an emerging method for active divergence through direct manipulation of neural networks’ internal components. This technique is both an artistic tool as well as a way to better understand what is typically a black box. Previous work requires expertise in order to fully utilize network bending due to confusing user-interface design choices. This project enables anyone to use these techniques through a user-friendly interface.
 
